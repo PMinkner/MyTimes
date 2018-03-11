@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+.logo{
+  display: flex;
+  color: mediumaquamarine;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo p{
+ padding-left: 30px;
+}
+
+.bar{
+  display: flex;
+  align-content: flex-end;
+  padding-right: 30px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: underline;
+
+}
+
+.content{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  padding-top: 80px;
+
+}
+
+.left{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 630px;
+  flex-direction: column;
+}
+.middle{
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.leadstory{
+  width: 630px;
+  display: block;
+}
+
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.bite{
+  display: block;
+  padding: 15px;
+  background-color: whiteSmoke;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+  color: DimGray;
+  font-family: Verdana;
+}
+
+
+.main{
+  background-image: url(mainstory.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.fall{
+  background-image: url(Fall.png);
+  height: 300px;
+  display: flex;
+}
+
+.cameraman{
+  background-image: url(cameraman.png);
+  height: 300px;
+  display: flex;
+}
+
+.cat{
+  background-image:url(cat.png);
+  height: 300px;
+  display: flex;
+}
+
+.main, .fall, .cameraman, .cat span{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  text-align: center;
+}
+
+.main span{
+  font-size: 40px;
+
+}
+
+
+.footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 325px;
+      background-color: MediumAquamarine;
+      margin: auto;
+      font-family: Verdana;
+      font-size: 12px;
+}
+.impressum{
+
+}
+
+.impressum p{
+  display: inline-block;
+  font-size: 20px;
+  color: White;
+  border-right: 2px solid white;
+  font-weight: bold;
+  padding-right: 25px;
+
+}
+
+.impressum nav{
+  display: inline-block;
+
+}
+
+.impressum span{
+  text-decoration: underline;
+
+}
+
+.copyright{
+
+}
